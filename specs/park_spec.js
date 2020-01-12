@@ -27,7 +27,7 @@ describe('Park', function() {
 
   it('should have a name', function () {
   const actual = park.name;
-    assert.StrictEqual(actual, park.name);
+    assert.strictEqual(actual, park.name);
   });
 
   it('should have a ticket price');
@@ -49,3 +49,5 @@ describe('Park', function() {
   it('should be able to calculate total revenue for one year');
 
 });
+
+
